@@ -1,0 +1,14 @@
+module PetRock
+{
+   imports {Base}
+
+    recipe Make a pet rock
+    {
+        keep Crayons/Pencil/Pen/RedPen/BluePen,
+        Stone,
+
+        Result: petRock,
+        Time:100.0,
+        Category: Crafting,
+    }
+}
